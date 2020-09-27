@@ -1,0 +1,284 @@
+Uri: https://mariame.netlify.app/
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\index.htm
+Content Type: text/html
+
+Uri: https://mariame.netlify.app/assets/img/bg/bg.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\bg\bg.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/css/all.css
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\css\all.css
+Content Type: text/css
+
+Uri: https://mariame.netlify.app/assets/css/elegant-font-icons.css
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\css\elegant-font-icons.css
+Content Type: text/css
+
+Uri: https://mariame.netlify.app/assets/css/bootstrap.min.css
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://mariame.netlify.app/assets/css/jquery.animatedheadline.css
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\css\jquery.animatedheadline.css
+Content Type: text/css
+
+Uri: https://mariame.netlify.app/assets/css/magnific-popup.css
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\css\magnific-popup.css
+Content Type: text/css
+
+Uri: https://mariame.netlify.app/assets/css/owl.carousel.css
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\css\owl.carousel.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\css.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\css-1.css
+Content Type: text/css
+
+Uri: https://mariame.netlify.app/assets/css/main.css
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\css\main.css
+Content Type: text/css
+
+Uri: https://mariame.netlify.app/index.html
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\index.html
+Content Type: text/html
+
+Uri: https://mariame.netlify.app/assets/img/works/1.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\works\1.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/works/2.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\works\2.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/works/3.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\works\3.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/works/4.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\works\4.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/works/5.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\works\5.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/works/6.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\works\6.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/hero.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\hero.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/clients/1.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\clients\1.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/clients/2.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\clients\2.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/clients/3.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\clients\3.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/blog/1.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\blog\1.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/blog/2.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\blog\2.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/blog/3.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\blog\3.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/img/blog/4.jpg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\img\blog\4.jpg
+Content Type: image/jpeg
+
+Uri: https://mariame.netlify.app/assets/js/jquery.min.js
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://mariame.netlify.app/assets/js/popper.min.js
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\js\popper.min.js
+Content Type: application/javascript
+
+Uri: https://mariame.netlify.app/assets/js/bootstrap.min.js
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://mariame.netlify.app/assets/js/jquery.animatedheadline.min.js
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\js\jquery.animatedheadline.min.js
+Content Type: application/javascript
+
+Uri: https://mariame.netlify.app/assets/js/jquery.magnific-popup.min.js
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\js\jquery.magnific-popup.min.js
+Content Type: application/javascript
+
+Uri: https://mariame.netlify.app/assets/js/ajax-contact.js
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\js\ajax-contact.js
+Content Type: application/javascript
+
+Uri: https://mariame.netlify.app/assets/js/owl.carousel.min.js
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\js\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: https://mariame.netlify.app/assets/js/main.js
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\js\main.js
+Content Type: application/javascript
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-brands-400.eot
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-brands-400.bin
+Content Type: application/octet-stream
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-brands-400.eot?
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-brands-400-1.bin
+Content Type: application/octet-stream
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-brands-400.woff2
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-brands-400.woff
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-brands-400.woff
+Content Type: application/font-woff
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-brands-400.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-brands-400.svg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-regular-400.eot
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-regular-400.bin
+Content Type: application/octet-stream
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-regular-400.eot?
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-regular-400-1.bin
+Content Type: application/octet-stream
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-regular-400.woff2
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-regular-400.woff
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-regular-400.woff
+Content Type: application/font-woff
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-regular-400.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-regular-400.svg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-solid-900.eot
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-solid-900.bin
+Content Type: application/octet-stream
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-solid-900.eot?
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-solid-900-1.bin
+Content Type: application/octet-stream
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-solid-900.woff2
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-solid-900.woff
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-solid-900.woff
+Content Type: application/font-woff
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-solid-900.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://mariame.netlify.app/assets/fonts/fontawesome/fa-solid-900.svg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\fontawesome\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://mariame.netlify.app/assets/fonts/ElegantIcons.eot
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\ElegantIcons.bin
+Content Type: application/octet-stream
+
+Uri: https://mariame.netlify.app/assets/fonts/ElegantIcons.eot?
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\ElegantIcons-1.bin
+Content Type: application/octet-stream
+
+Uri: https://mariame.netlify.app/assets/fonts/ElegantIcons.woff
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\ElegantIcons.woff
+Content Type: application/font-woff
+
+Uri: https://mariame.netlify.app/assets/fonts/ElegantIcons.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\ElegantIcons.ttf
+Content Type: font/ttf
+
+Uri: https://mariame.netlify.app/assets/fonts/ElegantIcons.svg
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\assets\fonts\ElegantIcons.svg
+Content Type: image/svg+xml
+
+Uri: https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\poppins\v13\pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v13/pxiEyp8kv8JHgFVrJJfedw.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\poppins\v13\pxiEyp8kv8JHgFVrJJfedw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\poppins\v13\pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\poppins\v13\pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\poppins\v13\pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\poppins\v13\pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v13/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\poppins\v13\pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/muli/v22/7Aulp_0qiz-aVz7u3PJLcUMYOFmQkEk30e0.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\muli\v22\7Aulp_0qiz-aVz7u3PJLcUMYOFmQkEk30e0.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/muli/v22/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30e0.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\muli\v22\7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30e0.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/muli/v22/7Aulp_0qiz-aVz7u3PJLcUMYOFn8kEk30e0.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\muli\v22\7Aulp_0qiz-aVz7u3PJLcUMYOFn8kEk30e0.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/muli/v22/7Aulp_0qiz-aVz7u3PJLcUMYOFkQl0k30e0.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\muli\v22\7Aulp_0qiz-aVz7u3PJLcUMYOFkQl0k30e0.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/muli/v22/7Aulp_0qiz-aVz7u3PJLcUMYOFkpl0k30e0.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\muli\v22\7Aulp_0qiz-aVz7u3PJLcUMYOFkpl0k30e0.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/muli/v22/7Aulp_0qiz-aVz7u3PJLcUMYOFlOl0k30e0.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\muli\v22\7Aulp_0qiz-aVz7u3PJLcUMYOFlOl0k30e0.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/muli/v22/7Aulp_0qiz-aVz7u3PJLcUMYOFlnl0k30e0.ttf
+File Name: c:\Downloaded Web Sites\mariame.netlify.app\s\muli\v22\7Aulp_0qiz-aVz7u3PJLcUMYOFlnl0k30e0.ttf
+Content Type: font/ttf
+
