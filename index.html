@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="assets\css\jquery.animatedheadline.css">
     <link rel="stylesheet" href="assets\css\magnific-popup.css">
     <link rel="stylesheet" href="assets\css\owl.carousel.css">
+
+    <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/plugins/css/styles.css">
     <link rel="icon" href="favicon-32x32.png"/>
 
     <!-- Font Google -->
@@ -198,7 +201,7 @@
                                 </li>
                             </ul>
 
-                            <a href="https://s3.amazonaws.com/attachments.angel.co/5078787-fdc5099d2e38836ac3c8e1740722642c.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJS6W3HGZGRJIRBTA%2F20200927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200927T074039Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=eccc05f3e11690b93c8546d0a56a167e50edd47c8ce539ba5f64245c154a02be" class="btn-custom">
+                            <a href="https://s3.amazonaws.com/attachments.angel.co/5078787-fdc5099d2e38836ac3c8e1740722642c.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJS6W3HGZGRJIRBTA%2F20200927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200927T074039Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=eccc05f3e11690b93c8546d0a56a167e50edd47c8ce539ba5f64245c154a02be" target="_blank" class="btn-custom">
                                 <span><i class="fas fa-cloud-download-alt"></i></span>
                                 <span>Downland My CV</span>
                             </a>
@@ -769,7 +772,766 @@
                 </div>
             </div>
         </section> -->
-<section></section>
+        <!--- Portfolio Section  -->
+        <section class="mh-portfolio" id="mh-portfolio">
+            <div class="container">
+            <div class="row mb-50">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2 class="text-dark mb-0">Portfolio</h2>
+                    </div>
+                </div>
+            </div>
+              <div class="row section-separator">
+                <div class="part col-sm-12">
+                  <div class="portfolio-nav col-sm-12" id="filter-button">
+                    <ul>
+                      <li data-filter="*" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                        <span>All Categories</span>
+                      </li>
+                      <li data-filter=".web" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <span>Web</span>
+                      </li>
+                      <li data-filter=".mobile" class="wow fadeInUp current" data-wow-duration="0.8s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <span>Mobile</span>
+                      </li>
+                      <!-- <li data-filter=".mockup" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>Mockups</span></li>
+                                      <li data-filter=".ui" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><span>Photography</span></li> -->
+                    </ul>
+                  </div>
+                  <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div class="portfolioContainer row" style="position: relative; height: 787.968px;">
+                      <div class="grid-item col-md-4 col-sm-6 col-xs-12 mobile" style="position: absolute; left: 0px; top: 0px;">
+                        <figure>
+                          <img src="assets/img/portfolio/mocha/mocha.jpg" alt="img04">
+                          <figcaption class="fig-caption">
+                            <h5 class="title">Odyssey</h5>
+                            <span class="sub-title">React Native, Redux, Redux-saga</span>
+                            <a href="assets/img/portfolio/mocha/mocha.jpg" data-fancybox="" data-src="#odyssey"></a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="grid-item col-md-4 col-sm-6 col-xs-12 mobile" style="position: absolute; left: 370px; top: 0px;">
+                        <figure>
+                          <img src="assets/img/portfolio/stint/stint.png" alt="img04">
+                          <figcaption class="fig-caption">
+                            <h5 class="title">Stint</h5>
+                            <span class="sub-title">React Native, Expo, Redux</span>
+                            <a href="assets/img/portfolio/stint/stint.png" data-fancybox="" data-src="#stint"></a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="grid-item col-md-4 col-sm-6 col-xs-12 web" style="position: absolute; left: 0px; top: 0px; display: none;">
+                        <figure>
+                          <img src="assets/img/portfolio/boatim/boatim.jpg" alt="img04">
+                          <figcaption class="fig-caption">
+                            <h5 class="title">Boatim</h5>
+                            <span class="sub-title">React, Mobx, Cypress</span>
+                            <a href="assets/img/portfolio/boatim/boatim.jpg" data-fancybox="" data-src="#boatim"></a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="grid-item col-md-4 col-sm-6 col-xs-12 web" style="position: absolute; left: 370px; top: 0px; display: none;">
+                        <figure>
+                          <img src="assets/img/portfolio/probath/probath.jpg" alt="img04">
+                          <figcaption class="fig-caption">
+                            <h5 class="title">ProBaths</h5>
+                            <span class="sub-title">Wordpress</span>
+                            <a href="assets/img/portfolio/probath/probath.jpg" data-fancybox="" data-src="#probath"></a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="grid-item col-md-4 col-sm-6 col-xs-12 mobile" style="position: absolute; left: 740px; top: 0px;">
+                        <figure>
+                          <img src="assets/img/portfolio/prankcaller/prank.png" alt="img04">
+                          <figcaption class="fig-caption">
+                            <h5 class="title">Prank Caller ID</h5>
+                            <span class="sub-title">React Native, Redux, Redux-saga</span>
+                            <a href="assets/img/portfolio/prankcaller/prank.png" data-fancybox="" data-src="#prankcaller"></a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="grid-item col-md-4 col-sm-6 col-xs-12 web" style="position: absolute; left: 740px; top: 0px; display: none;">
+                        <figure>
+                          <img src="assets/img/portfolio/allejiant/allejiant.jpg" alt="img04">
+                          <figcaption class="fig-caption">
+                            <h5 class="title">ALLEJIANT</h5>
+                            <span class="sub-title">Wordpress</span>
+                            <a href="assets/img/portfolio/allejiant/allejiant.jpg" data-fancybox="" data-src="#allejiant"></a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="grid-item col-md-4 col-sm-6 col-xs-12 mobile" style="position: absolute; left: 0px; top: 262px;">
+                        <figure>
+                          <img src="assets/img/portfolio/fakecaller/fakecaller.png" alt="img04">
+                          <figcaption class="fig-caption">
+                            <h5 class="title">Fake Caller ID</h5>
+                            <span class="sub-title">React Native, Redux</span>
+                            <a href="assets/img/portfolio/fakecaller/fakecaller.png" data-fancybox="" data-src="#fakecaller"></a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="grid-item col-md-4 col-sm-6 col-xs-12 mobile" style="position: absolute; left: 370px; top: 262px;">
+                        <figure>
+                          <img src="assets/img/portfolio/myfast/myfast.jpg" alt="img04">
+                          <figcaption class="fig-caption">
+                            <h5 class="title">MyFast</h5>
+                            <span class="sub-title">React Native, Redux, Firebase, Chart.js</span>
+                            <a href="assets/img/portfolio/myfast/myfast.jpg" data-fancybox="" data-src="#myfast"></a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="grid-item col-md-4 col-sm-6 col-xs-12 web mobile" style="position: absolute; left: 740px; top: 262px;">
+                        <figure>
+                          <img src="assets/img/portfolio/milkcrate/milkcrate_screenshot.jpg" alt="img04">
+                          <figcaption class="fig-caption">
+                            <h5 class="title">MilkCrate for Communities</h5>
+                            <span class="sub-title">React Native, Redux, Fabric</span>
+                            <a href="assets/img/portfolio/milkcrate/milkcrate_screenshot.jpg" data-fancybox="" data-src="#milkcrate"></a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="grid-item col-md-4 col-sm-6 col-xs-12 mobile" style="position: absolute; left: 0px; top: 525px;">
+                        <figure>
+                          <img src="assets/img/portfolio/barber/Barber.jpg" alt="img04">
+                          <figcaption class="fig-caption">
+                            <h5 class="title">BarberApp</h5>
+                            <span class="sub-title">React Native, Redux, React Hooks, GraphQL, Context
+                              API</span>
+                            <a href="assets/img/portfolio/barber/Barber.jpg" data-fancybox="" data-src="#barber"></a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="grid-item col-md-4 col-sm-6 col-xs-12 mobile" style="position: absolute; left: 370px; top: 525px;">
+                        <figure>
+                          <img src="assets/img/portfolio/experian/experian.jpg" alt="img04">
+                          <figcaption class="fig-caption">
+                            <h5 class="title">Experian</h5>
+                            <span class="sub-title">React Native, Redux, NativeBase</span>
+                            <a href="assets/img/portfolio/experian/experian.jpg" data-fancybox="" data-src="#experian"></a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="grid-item col-md-4 col-sm-6 col-xs-12 web" style="position: absolute; left: 370px; top: 262px; display: none;">
+                        <figure>
+                          <img src="assets/img/portfolio/content/content.jpg" alt="img04">
+                          <figcaption class="fig-caption">
+                            <h5 class="title">Content.co</h5>
+                            <span class="sub-title">React, Gatsby, GraphQL, TypeScript, Next.js</span>
+                            <a href="assets/img/portfolio/content/content.jpg" data-fancybox="" data-src="#content"></a>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                    <!-- End: .grid .project-gallery -->
+                  </div>
+                  <!-- End: .grid .project-gallery -->
+                </div>
+                <!-- End: .part -->
+              </div>
+              <!-- End: .row -->
+            </div>
+            <div class="mh-portfolio-modal" id="stint" style="display: none;">
+              <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                  <div class="col-sm-5">
+                    <h2>Stint</h2>
+                    <p>Employment Mobile App for University Students</p>
+      
+                    <p class="sub-title">
+                      ✓ Converted Expo version to React Native CLI.
+                    </p>
+                    <p class="sub-title">✓ Fix some broken styling issues.</p>
+                    <p class="sub-title">✓ Update components with NativeBase</p>
+                    <p class="sub-title">
+                      ✓ Upgraded the app performance with calendar features.
+                    </p>
+      
+                    <div class="mh-about-tag">
+                      <ul>
+                        <li><span>React Native</span></li>
+                        <li><span>Expo</span></li>
+                        <li><span>Javascript</span></li>
+                        <li><span>Firebase</span></li>
+                        <li><span>Canlender</span></li>
+                        <li><span>Payment integration</span></li>
+                        <li><span>Animations</span></li>
+                      </ul>
+                    </div>
+                    <a href="https://apps.apple.com/gb/app/stint/id1350133141" target="_blank" class="btn btn-fill">iOS</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.stint.stint&amp;hl=en_GB" target="_blank" class="btn btn-fill">Android</a>
+                  </div>
+                  <div class="col-sm-7">
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/stint/stint.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mh-portfolio-modal" id="odyssey">
+              <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                  <div class="col-sm-5">
+                    <h2 class="title">Odyssey</h2>
+                    <p class="category">
+                      Social App for Personal Development Community
+                    </p>
+      
+                    <p class="sub-title">
+                      ✓ As a front-end developer, I have built the infrastructure of
+                      this project using React Native and Redux/Redux-saga.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Suggested innovative ideas based on the sketch design for
+                      user-friendly and responsive UI designs.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Working on about 100+ screens for responsive UI and backend
+                      integrations.
+                    </p>
+      
+                    <div class="mh-about-tag">
+                      <ul>
+                        <li><span>React Native</span></li>
+                        <li><span>Redux</span></li>
+                        <li><span>Javascript</span></li>
+                        <li><span>Redux-saga</span></li>
+                        <li><span>JSX</span></li>
+                        <li><span>ES6</span></li>
+                        <li><span>Firebase</span></li>
+                        <li><span>AWS S3</span></li>
+                        <li><span>CodePush</span></li>
+                        <li><span>Twilio</span></li>
+                        <li><span>Youtube</span></li>
+                        <li><span>AudioKit</span></li>
+                      </ul>
+                    </div>
+                    <a href="https://jointheodyssey.com/" target="_blank" class="btn btn-fill">Visit Site</a>
+                  </div>
+                  <div class="col-sm-7 portfolio-modal-img-view">
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/mocha/mocha.jpg" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/mocha/mocha1.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/mocha/mocha2.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/mocha/mocha3.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/mocha/mocha4.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/mocha/mocha5.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/mocha/mocha6.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/mocha/mocha7.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/mocha/mocha8.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mh-portfolio-modal" id="boatim" style="display: none;">
+              <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                  <div class="col-sm-5">
+                    <h2 class="title">Boatim</h2>
+                    <p class="category">eCommerce Website for Boat Market</p>
+      
+                    <p class="sub-title">
+                      ✓ Participated in the development of this eCommerce website as a
+                      front-end developer with 2 front-end developers and 1 back-end
+                      developer and 2 QA Testers and a project manager.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Understood the source code in 3 days which was 90% completed.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Focused on UI update for responsive and additional designs
+                      which were very urgent.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Completed 40+ web pages and tested on Chrome, Firefox, IE11,
+                      and Safari by 2 testers.
+                    </p>
+      
+                    <div class="mh-about-tag">
+                      <ul>
+                        <li><span>React</span></li>
+                        <li><span>Mobx</span></li>
+                        <li><span>SCSS</span></li>
+                        <li><span>Firebase</span></li>
+                        <li><span>i18next</span></li>
+                        <li><span>Storybook</span></li>
+                        <li><span>SSR</span></li>
+                        <li><span>Cypress</span></li>
+                        <li><span>Docker</span></li>
+                        <li><span>AWS</span></li>
+                        <li><span>Jest</span></li>
+                      </ul>
+                    </div>
+                    <a href="https://boatim.com/" target="_blank" class="btn btn-fill">Visit Site</a>
+                  </div>
+                  <div class="col-sm-7 portfolio-modal-img-view">
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/boatim/boatim.jpg" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/boatim/boatim1.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/boatim/boatim2.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/boatim/boatim3.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mh-portfolio-modal" id="probath" style="display: none;">
+              <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                  <div class="col-sm-5">
+                    <h2 class="title">ProBaths</h2>
+                    <p class="category">Bathroom Remodeling Service Website</p>
+      
+                    <p class="sub-title">
+                      ✓ Managed front-end from scratch with 2 other front-end
+                      developers
+                    </p>
+                    <p class="sub-title">✓ Integrated APIs and Call Services</p>
+                    <p class="sub-title">
+                      ✓ Implemented pixel-perfect and responsive design
+                    </p>
+                    <p class="sub-title">
+                      ✓ Continuous deployment process via GitHub and Netlify
+                    </p>
+      
+                    <div class="mh-about-tag">
+                      <ul>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS</span></li>
+                        <li><span>jQuery</span></li>
+                        <li><span>Wordpress</span></li>
+                        <li><span>PHP</span></li>
+                        <li><span>AJAX</span></li>
+                        <li><span>Nginx</span></li>
+                        <li><span>MySQL</span></li>
+                        <li><span>Animations</span></li>
+                      </ul>
+                    </div>
+                    <a href="https://probaths.com/" target="_blank" class="btn btn-fill">Visit Site</a>
+                  </div>
+                  <div class="col-sm-7 portfolio-modal-img-view">
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/probath/probath.jpg" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/probath/probath-1.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mh-portfolio-modal" id="prankcaller">
+              <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                  <div class="col-sm-5">
+                    <h2 class="title">Prank Caller ID</h2>
+                    <p class="category">VoIP Mobile Application for US/CA Citizens</p>
+      
+                    <p class="sub-title">
+                      ✓ Built MVP version from scratch in 2 months with the CEO/CTO
+                      who is a backend developer.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Supported ongoing maintenance to get more app users to be in
+                      competition with other VoIP apps
+                    </p>
+                    <p class="sub-title">
+                      ✓ Integrated native SDK and customize the implementation of
+                      complex Call functions.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Learned solid skills of native module bridging into React
+                      Native project and Deeplink for the referral feature and user
+                      interactions.
+                    </p>
+                    <p class="sub-title">✓ Increased app users by 300%.</p>
+                    <p class="sub-title">✓ Increased revenue to $500 per day.</p>
+      
+                    <div class="mh-about-tag">
+                      <ul>
+                        <li><span>React Native</span></li>
+                        <li><span>Redux</span></li>
+                        <li><span>Redux-saga</span></li>
+                        <li><span>PJSIP</span></li>
+                        <li><span>Onesignal</span></li>
+                        <li><span>CodePush</span></li>
+                        <li><span>Stripe API</span></li>
+                        <li><span>In App Purchase</span></li>
+                        <li><span>Voice Processing</span></li>
+                      </ul>
+                    </div>
+                    <a href="https://prankcaller.io/" target="_blank" class="btn btn-fill">Visit Site</a>
+                    <a href="https://apps.apple.com/us/app/prank-caller-1-prank-app/id1142839494" target="_blank" class="btn btn-fill">iOS</a>
+                    <a href="https://play.google.com/store/apps/details?id=prank.caller.io" target="_blank" class="btn btn-fill">Android</a>
+                  </div>
+                  <div class="col-sm-7 portfolio-modal-img-view">
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/prankcaller/prank.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/prankcaller/prank1.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/prankcaller/prank2.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/prankcaller/prank3.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mh-portfolio-modal" id="allejiant">
+              <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                  <div class="col-sm-5">
+                    <h2 class="title">ALLEJIANT</h2>
+                    <p class="category">Home Remodeling Contractor Service</p>
+      
+                    <p class="sub-title">✓ Built front-end from scratch.</p>
+                    <p class="sub-title">✓ Integrated Wordpress API</p>
+                    <p class="sub-title">
+                      ✓ Implemented pixel-perfect and responsive design
+                    </p>
+                    <p class="sub-title">
+                      ✓ Continuous deployment process via GitHub and Netlify
+                    </p>
+      
+                    <div class="mh-about-tag">
+                      <ul>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS</span></li>
+                        <li><span>jQuery</span></li>
+                        <li><span>Wordpress</span></li>
+                        <li><span>PHP</span></li>
+                        <li><span>Backbone.js</span></li>
+                        <li><span>Babel</span></li>
+                        <li><span>MySQL</span></li>
+                        <li><span>Nginx</span></li>
+                        <li><span>Animations</span></li>
+                      </ul>
+                    </div>
+                    <a href="https://jiantrenovations.com/" target="_blank" class="btn btn-fill">Visit Site</a>
+                  </div>
+                  <div class="col-sm-7 portfolio-modal-img-view">
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/allejiant/allejiant.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mh-portfolio-modal" id="fakecaller">
+              <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                  <div class="col-sm-5">
+                    <h2 class="title">Fake Caller ID</h2>
+                    <p class="category">
+                      VoIP Mobile Application for Worldwide People
+                    </p>
+      
+                    <p class="sub-title">
+                      ✓ Built MVP version in 7 weeks and published on google and app
+                      store
+                    </p>
+                    <p class="sub-title">
+                      ✓ Supported ongoing maintenance to get more app users to be in
+                      competition with other VoIP apps
+                    </p>
+                    <p class="sub-title">✓ Increased app users by 200%</p>
+                    <p class="sub-title">✓ Increased revenue to $300 per day</p>
+      
+                    <div class="mh-about-tag">
+                      <ul>
+                        <li><span>React Native</span></li>
+                        <li><span>Redux</span></li>
+                        <li><span>PJSIP</span></li>
+                        <li><span>Onesignal</span></li>
+                        <li><span>CodePush</span></li>
+                        <li><span>Stripe API</span></li>
+                        <li><span>Voice Processing</span></li>
+                        <li><span>In App Purchase</span></li>
+                      </ul>
+                    </div>
+                    <a href="https://fakecallerid.io/" target="_blank" class="btn btn-fill">Visit Site</a>
+                    <a href="https://apps.apple.com/us/app/tracebust-keep-your-privacy/id984970555" target="_blank" class="btn btn-fill">iOS</a>
+                    <a href="https://play.google.com/store/apps/details?id=tracebust.prank.app" target="_blank" class="btn btn-fill">Android</a>
+                  </div>
+                  <div class="col-sm-7 portfolio-modal-img-view">
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/fakecaller/fakecaller.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/fakecaller/fakecaller1.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/fakecaller/fakecaller2.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/fakecaller/fakecaller3.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mh-portfolio-modal" id="myfast">
+              <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                  <div class="col-sm-5">
+                    <h2 class="title">MyFast</h2>
+                    <p class="category">Intermittent Fasting Diet App</p>
+      
+                    <p class="sub-title">
+                      ✓ Built the MVP version and deployed to google and app store in
+                      5 weeks.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Setup Firebase as the backend database and service.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Updated UI using material design and chart.js for the next
+                      version.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Implemented weekly fasting schedule feature which is popular
+                      and attractive.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Completed home widget for user-friendly according to the
+                      user's feedback
+                    </p>
+                    <p class="sub-title">✓ Increased app users by 250%</p>
+                    <div class="mh-about-tag">
+                      <ul>
+                        <li><span>React Native</span></li>
+                        <li><span>Redux</span></li>
+                        <li><span>Firebase</span></li>
+                        <li><span>In App Purchase</span></li>
+                        <li><span>Chart.js</span></li>
+                        <li><span>Scheduled Notification</span></li>
+                        <li><span>Payment Subscription</span></li>
+                        <li><span>Home Widget</span></li>
+                      </ul>
+                    </div>
+                    <a href="https://myfasttracker.com/" target="_blank" class="btn btn-fill">Visit Site</a>
+                    <a href="https://apps.apple.com/us/app/myfast-fasting-timer-app/id1218416683" target="_blank" class="btn btn-fill">iOS</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.prestigeworldwide.myfast" target="_blank" class="btn btn-fill">Android</a>
+                  </div>
+                  <div class="col-sm-7 portfolio-modal-img-view">
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/myfast/myfast.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/myfast/myfast1.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mh-portfolio-modal" id="milkcrate" style="display: none;">
+              <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                  <div class="col-sm-5">
+                    <h2 class="title">MilkCrate for Communities</h2>
+                    <p class="category">Organized Social Mobile App</p>
+      
+                    <p class="sub-title">
+                      ✓ Update some screens of the existing project.
+                    </p>
+                    <p class="sub-title">✓ Fixed styling and API issues</p>
+                    <p class="sub-title">
+                      ✓ Focused on pixel-perfect and peformance issue in funtions and
+                      API calls
+                    </p>
+                    <div class="mh-about-tag">
+                      <ul>
+                        <li><span>React Native</span></li>
+                        <li><span>Redux</span></li>
+                        <li><span>Google Map API</span></li>
+                        <li><span>Fabric</span></li>
+                        <li><span>CodePush</span></li>
+                        <li><span>Push Notification</span></li>
+                        <li><span>Calendar Events</span></li>
+                        <li><span>Socket.io</span></li>
+                        <li><span>User Profile Creation</span></li>
+                      </ul>
+                    </div>
+                    <a href="https://milkcrate.tech/product" target="_blank" class="btn btn-fill">
+                      Visit Site
+                    </a>
+                    <a href="https://apps.apple.com/us/app/milkcrate-for-communities/id910982806" target="_blank" class="btn btn-fill">
+                      iOS
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.milkcrate" target="_blank" class="btn btn-fill">
+                      Android
+                    </a>
+                  </div>
+                  <div class="col-sm-7 portfolio-modal-img-view">
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/milkcrate/milkcrate_screenshot.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mh-portfolio-modal" id="barber">
+              <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                  <div class="col-sm-5">
+                    <h2 class="title">BarberApp</h2>
+                    <p class="category">Service Booking Mobile App for Barbers</p>
+                    <p class="sub-title">
+                      ✓ Contributed to front-end with 2 other front-end developers.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Managed backend development on Hasura engine for GraphQL
+                    </p>
+                    <p class="sub-title">
+                      ✓ Focused on pixel-perfect and database structure
+                    </p>
+                    <p class="sub-title">
+                      ✓ Integrated Amazon Web Services such as Cognito, S3, Lambda,
+                      AppSync using AWS-Amplify
+                    </p>
+                    <div class="mh-about-tag">
+                      <ul>
+                        <li><span>React Native</span></li>
+                        <li><span>Redux</span></li>
+                        <li><span>React Hooks</span></li>
+                        <li><span>GraphQL</span></li>
+                        <li><span>Context API</span></li>
+                        <li><span>Gradient</span></li>
+                        <li><span>Calender</span></li>
+                        <li><span>AWS S3</span></li>
+                        <li><span>Cognito</span></li>
+                        <li><span>AWS Lambda</span></li>
+                        <li><span>AWS-Amplify</span></li>
+                        <li><span>Hasura</span></li>
+                        <li><span>Apollo</span></li>
+                        <li><span>PostgreSQL</span></li>
+                      </ul>
+                    </div>
+                    <a href="https://apps.apple.com/us/app/thecut-1-barber-booking-app/id1101408626" target="_blank" class="btn btn-fill">
+                      iOS
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.thecut.mobile.android.thecut&amp;hl=en" target="_blank" class="btn btn-fill">
+                      Android
+                    </a>
+                  </div>
+                  <div class="col-sm-7 portfolio-modal-img-view">
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/barber/Barber.jpg" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/barber/barber-1.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/barber/barber-2.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/barber/barber-3.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/barber/barber-4.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/barber/barber-5.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/barber/barber-6.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/barber/barber-7.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/barber/barber-8.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/barber/barber-9.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/barber/barber-10.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/barber/barber-11.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mh-portfolio-modal" id="experian">
+              <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                  <div class="col-sm-5">
+                    <h2 class="title">Experian</h2>
+                    <p class="category">
+                      CMS Mobile App for Training Sources (Not Published)
+                    </p>
+                    <p class="sub-title">
+                      ✓ Built MVP from scratch using React Native and Redux.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Integrated WordPress API which was connected to CMS.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Implemented Authentication using Okta, Touch ID and JWT Token.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Parsed HTML content to render Text, PDF, MP4, Youtube Video,
+                      PPTX, and Image on a web-view properly.
+                    </p>
+                    <p class="sub-title">
+                      ✓ Implemented Multi-Language (English, Spanish and French).
+                    </p>
+                    <p class="sub-title">
+                      ✓ Used material UI with parallax scroll view and Lottie for
+                      smooth animations
+                    </p>
+                    <div class="mh-about-tag">
+                      <ul>
+                        <li><span>React Native</span></li>
+                        <li><span>Redux</span></li>
+                        <li><span>Okta</span></li>
+                        <li><span>AWS-Amplify</span></li>
+                        <li><span>HTML Parsing</span></li>
+                        <li><span>GraphQL</span></li>
+                        <li><span>JWT</span></li>
+                        <li><span>Touch ID</span></li>
+                        <li><span>CMS</span></li>
+                        <li><span>i18n</span></li>
+                        <li><span>Lottie</span></li>
+                      </ul>
+                    </div>
+                    <a href="https://www.dropbox.com/s/xs1mnj582oxfcob/Experian_Introduce_Beta_Video.mp4?dl=0" target="_blank" class="btn btn-fill">
+                      See Demo
+                    </a>
+                  </div>
+                  <div class="col-sm-7 portfolio-modal-img-view">
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/experian/experian.jpg" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/experian/experian1.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/experian/experian2.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/experian/experian3.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/experian/experian4.png" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/experian/experian5.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mh-portfolio-modal" id="content">
+              <div class="container">
+                <div class="row mh-portfolio-modal-inner">
+                  <div class="col-sm-5">
+                    <h2 class="title">Content.co</h2>
+                    <p class="category">Top Freelance Marketing Platform</p>
+                    <p class="sub-title">
+                      ✓ Worked as a front-end developer with 3 team members.
+                    </p>
+                    <p class="sub-title">✓ Integrated GraphQL API using Apollo.</p>
+                    <p class="sub-title">
+                      ✓ Understood the code structure of Next.js, Typescript and
+                      GraphQL in a week
+                    </p>
+                    <p class="sub-title">
+                      ✓ Focused on pixel-perfect design and fixing styling issues.
+                    </p>
+                    <div class="mh-about-tag">
+                      <ul>
+                        <li><span>React</span></li>
+                        <li><span>Redux</span></li>
+                        <li><span>GraphQL</span></li>
+                        <li><span>Next.js</span></li>
+                        <li><span>Typescript</span></li>
+                        <li><span>Gatsby</span></li>
+                        <li><span>Bootstrap</span></li>
+                        <li><span>Webpack</span></li>
+                        <li><span>AWS S3</span></li>
+                        <li><span>Intercom</span></li>
+                      </ul>
+                    </div>
+                    <a href="https://content.co" target="_blank" class="btn btn-fill">
+                      Visit Site
+                    </a>
+                  </div>
+                  <div class="col-sm-7 portfolio-modal-img-view">
+                    <div class="mh-portfolio-modal-img">
+                      <img src="assets/img/portfolio/content/content.jpg" alt="" class="img-fluid">
+                      <img src="assets/img/portfolio/content/content1.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+        <!--- Contact Section -->
         <section class="section contact pb-70" id="contact">
             <div class="container">
                 <div class="row mb-50">
@@ -851,13 +1613,6 @@
                 <li><a href="https://stackoverflow.com/users/14327005/yamamoto?tab=profile" target="_blank" class="text-dark"><i class="fab fa-stack-overflow"></i></a></li>
                 <li><a href="https://github.com/yamamoto-ichiro" target="_blank" class="text-dark"><i class="fab fa-github"></i></a></li>
             </ul>
-            <!-- <ul class="list-inline">
-                <li><a href="#"><i class="fab fa-facebook-f text-dark"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter text-dark"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram text-dark"></i></a></li>
-                <li><a href="#"><i class="fab fa-dribbble text-dark"></i></a></li>
-                <li><a href="#"><i class="fab fa-behance text-dark"></i></a></li>
-            </ul> -->
         </div>
     </div>
 
@@ -874,6 +1629,7 @@
     <script src="assets\js\ajax-contact.js"></script>
     <script src="assets\js\owl.carousel.min.js"></script>
     <script src="assets\js\main.js"></script>
+    <script src="assets\js\custom-script.js"></script>
     <script>
         function initMap() {
           var uluru = {lat: 35.695126, lng: 139.753910};
@@ -882,7 +1638,10 @@
           var marker = new google.maps.Marker({position: uluru, map: map});
         }
     </script>
-    <script defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpUgQiH-C1JHPtX4uYesIUqjvPgou9d80&callback=initMap"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpUgQiH-C1JHPtX4uYesIUqjvPgou9d80&callback=initMap"></script>
+    <script src="assets/plugins/js/jquery.fancybox.min.js"></script>
+    <script src="assets/plugins/js/isotope.pkgd.js"></script>
+    <script src="assets/plugins/js/packery-mode.pkgd.js"></script>
 </body>
 
 </html>
