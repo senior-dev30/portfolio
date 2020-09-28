@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Title -->
-    <title> Yamamoto Ichiro Portfolio</title>
+    <title> Yamamoto Ichiro | Software Developer</title>
 
     <!-- CSS Plugins -->
     <link rel="stylesheet" href="assets\css\all.css">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets\css\jquery.animatedheadline.css">
     <link rel="stylesheet" href="assets\css\magnific-popup.css">
     <link rel="stylesheet" href="assets\css\owl.carousel.css">
-
+    <link rel="icon" href="favicon-32x32.png"/>
 
     <!-- Font Google -->
     <link href="css.css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -773,7 +773,7 @@
                 </div>
             </div>
         </section> -->
-
+<section></section>
         <section class="section contact pb-70" id="contact">
             <div class="container">
                 <div class="row mb-50">
@@ -786,7 +786,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <!-- <form action="assets/php/mail.php" method="post" id="main_contact_form" class="form contact_form "> -->
+                        <form action="post.php" method="GET" id="main_contact_form" class="form contact_form ">
                             <div class="alert alert-success contact_msg " style="display: none" role="alert">
                                 Your message was sent successfully.
                             </div>       
@@ -811,7 +811,7 @@
                                 <span> Send Message</span>
                             </button>
 
-                        <!-- </form> -->
+                        </form>
                     </div>
                     <div class="col-lg-6">
                         <div class="contact-info">
@@ -823,6 +823,7 @@
                                 <p class="text-dark font-w-700 mb-0">Email: </p>
                                 <p class="text-dark mb-0"><i class="fas fa-envelope base-color"> </i> <a href="mailto:yamamoto.ichiro92@gmail.com" class="text-dark" style="text-decoration: underline !important;">yamamoto.ichiro92@gmail.com</a></p>                                 
                             </div>
+                            <div id="map"></div>
                             <div class="item mb-20">
                                 <p class="text-dark font-w-700 mb-0">Adress: </p>
                                 <p class="text-dark mb-0"><i class="fas fa-map-marker-alt base-color"> </i>1224-21, Kanda Nishiki-cho 3-chome, Chiyoda-ku, Tokyo, Japan</p>
@@ -871,6 +872,16 @@
     <script src="assets\js\ajax-contact.js"></script>
     <script src="assets\js\owl.carousel.min.js"></script>
     <script src="assets\js\main.js"></script>
+    <script>
+        function initMap() {
+          var uluru = {lat: -25.344, lng: 131.036};
+          var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 4, center: uluru});
+          var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+    </script>
+    <script defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQVie5DX435MpzTcdCUZd7Y9sDX9lyuAU&callback=initMap"></script>
+
 
 </body>
 
