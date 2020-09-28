@@ -10,6 +10,10 @@
   color: #343a40;
 }
 
+.container {
+  overflow: hidden;
+}
+
 .btn.btn-fill {
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
@@ -20,6 +24,7 @@
   background-color: #159488;
   color: #fff;
   margin: 10px;
+  box-shadow: none;
 }
 
 /**
@@ -202,9 +207,9 @@
 }
 
 .portfolio-nav ul li span {
-  padding: 15px 0;
   border-bottom: 2px solid transparent;
   color: #343a40;
+  padding: 16px 8px;
 }
 
 .portfolio-nav ul li.current span {
