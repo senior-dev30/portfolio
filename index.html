@@ -61,13 +61,9 @@
                         <a class="nav-link" href="#services">Services</a>
                     </li>
         
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#works">Works</a>
-                    </li>
-        
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
+                    </li> -->
         
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -823,14 +819,14 @@
                                 <p class="text-dark font-w-700 mb-0">Email: </p>
                                 <p class="text-dark mb-0"><i class="fas fa-envelope base-color"> </i> <a href="mailto:yamamoto.ichiro92@gmail.com" class="text-dark" style="text-decoration: underline !important;">yamamoto.ichiro92@gmail.com</a></p>                                 
                             </div>
-                            <div id="map"></div>
                             <div class="item mb-20">
-                                <p class="text-dark font-w-700 mb-0">Adress: </p>
-                                <p class="text-dark mb-0"><i class="fas fa-map-marker-alt base-color"> </i>1224-21, Kanda Nishiki-cho 3-chome, Chiyoda-ku, Tokyo, Japan</p>
-                            </div>
-                            <div class="item">
                                 <p class="text-dark font-w-700 mb-0">Skype: </p>
                                 <p class="text-dark mb-0"> <i class="fab fab fa-skype base-color"> </i><a href="skype:live:yamamotoichiro?chat" class="text-dark" style="text-decoration: underline !important;">live:yamamotoichiro</a></p>
+                            </div>
+                            <div class="item">
+                                <p class="text-dark font-w-700 mb-0">Adress: </p>
+                                <p class="text-dark mb-0"><i class="fas fa-map-marker-alt base-color"> </i>1224-21, Kanda Nishiki-cho 3-chome, Chiyoda-ku, Tokyo, Japan</p>
+                                <div id="map" style="margin-top: 16px;"></div>
                             </div>
                         </div>
                     </div>
@@ -850,12 +846,18 @@
 
         <div class="social-footer">
             <ul class="list-inline">
+                <li><a href="https://www.linkedin.com/in/senior-dev/" target="_blank" class="text-dark"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://angel.co/u/yamamoto-ichiro" target="_blank" class="text-dark"><i class="fab fa-angellist"></i></i></a></li>
+                <li><a href="https://stackoverflow.com/users/14327005/yamamoto?tab=profile" target="_blank" class="text-dark"><i class="fab fa-stack-overflow"></i></a></li>
+                <li><a href="https://github.com/yamamoto-ichiro" target="_blank" class="text-dark"><i class="fab fa-github"></i></a></li>
+            </ul>
+            <!-- <ul class="list-inline">
                 <li><a href="#"><i class="fab fa-facebook-f text-dark"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter text-dark"></i></a></li>
                 <li><a href="#"><i class="fab fa-instagram text-dark"></i></a></li>
                 <li><a href="#"><i class="fab fa-dribbble text-dark"></i></a></li>
                 <li><a href="#"><i class="fab fa-behance text-dark"></i></a></li>
-            </ul>
+            </ul> -->
         </div>
     </div>
 
@@ -874,15 +876,13 @@
     <script src="assets\js\main.js"></script>
     <script>
         function initMap() {
-          var uluru = {lat: -25.344, lng: 131.036};
+          var uluru = {lat: 35.695126, lng: 139.753910};
           var map = new google.maps.Map(
-            document.getElementById('map'), {zoom: 4, center: uluru});
+            document.getElementById('map'), {zoom: 6, center: uluru});
           var marker = new google.maps.Marker({position: uluru, map: map});
         }
     </script>
-    <script defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQVie5DX435MpzTcdCUZd7Y9sDX9lyuAU&callback=initMap"></script>
-
-
+    <script defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpUgQiH-C1JHPtX4uYesIUqjvPgou9d80&callback=initMap"></script>
 </body>
 
 </html>
