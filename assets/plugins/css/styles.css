@@ -194,6 +194,7 @@
   margin: 0 auto;
   float: none;
   text-align: center;
+  display: flex;
 }
 
 .portfolio-nav ul li {
