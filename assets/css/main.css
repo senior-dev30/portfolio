@@ -946,7 +946,7 @@ ul {
 }
 
 .about .timeline .item .content {
-  padding: 0px 0px 50px 50px;
+  padding: 0px 0px 10px 50px;
   border-left: 1px solid #f21e4e;
 }
 
@@ -1489,4 +1489,19 @@ ul {
 #map {
   height: 276px;
   width: 100%;
+ }
+
+ .experience-line {
+   padding-bottom: 8px;
+ }
+
+ .edu-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+
+ .timeline-edu-skill {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
  }
