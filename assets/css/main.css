@@ -1455,7 +1455,7 @@ ul {
 }
 
 .skill-box .skillbar:not(:last-child) {
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 
 .skill-box .skillbar-title {
@@ -1498,7 +1498,7 @@ ul {
  .edu-skills {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
  }
 
  .timeline-edu-skill {
